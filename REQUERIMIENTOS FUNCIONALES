@@ -1,0 +1,22 @@
+****************SERVIDOR****************
+R1:
+Contener todas las confesiones
+Debe llevar estadísticas (votos,vistas) 
+R2:
+Sincronizar permanentemente
+Debe estar siempre sincronizado
+
+
+****************CLIENTE****************
+R1:
+Mostrar confesiones
+Debe mostrar los strings en formato
+R2:
+Pull to update
+Al halar, debe renovar las confesiones que llegan
+R3:
+Recibir nuevas confesiones
+Le da al usuario la posibilidad de escribir su confesión
+R4:
+Votar
+A favor o en contra de una confesión, para que los usuarios filtren
