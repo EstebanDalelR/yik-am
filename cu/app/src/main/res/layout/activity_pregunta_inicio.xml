@@ -1,0 +1,142 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".PreguntaInicio"
+    android:orientation="horizontal"
+    android:background="#1468D0"
+    android:id="@+id/text">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bienvenido a CU!"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_y="10dp"
+        android:layout_x="4dp"
+        android:textStyle="bold"
+        android:editable="false"
+        android:gravity="center|center_horizontal"
+        android:typeface="monospace"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Para ingresar como uniandino por favor responda la siguiente pregunta de seguridad, recuerde no utilizar espacios, mayusculas y tampoco articulos (Los, La, El, Un, etc.), en caso de que sea una respuesta numerica ponga el numero (por ejemplo no ponga cuatro, 2do, etc.), de lo contrario ingrese como invitado."
+        android:id="@+id/textView2"
+        android:layout_marginTop="39dp"
+        android:layout_x="0dp"
+        android:layout_y="289dp"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        android:clickable="false"
+        android:enabled="false"
+        android:focusable="false"
+        android:textSize="18dp"
+        android:textIsSelectable="false"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Ingresa como Uniandino"
+        android:id="@+id/button"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_x="0dp"
+        android:typeface="monospace"
+        android:layout_y="328dp"
+        android:backgroundTint="#ffffff" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="Ingresa como Invitado"
+        android:id="@+id/button2"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_x="0dp"
+        android:layout_y="400dp"
+        android:typeface="monospace"
+        android:backgroundTint="#ffffff" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_above="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="34dp"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_x="0dp"
+        android:layout_y="567dp"
+        android:textColor="#fff"
+        android:backgroundTint="#fff"
+        android:imeOptions="actionSend"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_above="@+id/editText"
+        android:layout_x="0dp"
+        android:layout_y="521dp"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#ffffff"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:layout_x="0dp"
+        android:layout_y="-290dp"
+        android:typeface="monospace"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:id="@+id/button3"
+        android:typeface="monospace"
+        android:layout_x="0dp"
+        android:layout_y="615dp"
+        android:background="#fff" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:id="@+id/button4"
+        android:layout_x="0dp"
+        android:layout_y="685dp"
+
+        android:background="#fff"/>
+
+
+</AbsoluteLayout>
+</ScrollView>
